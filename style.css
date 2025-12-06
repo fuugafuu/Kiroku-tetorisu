@@ -1,0 +1,26 @@
+
+body {
+  margin:0;
+  background:black;
+  color:#0ff;
+  font-family:system-ui;
+  text-align:center;
+}
+canvas {
+  background:#000;
+  border:2px solid #0ff;
+  box-shadow:0 0 15px #0ff;
+  margin-top:10px;
+}
+.hud {
+  padding:8px;
+  font-weight:bold;
+  text-shadow:0 0 8px #0ff;
+}
+.flash {
+  animation: flash 0.2s;
+}
+@keyframes flash {
+  from { box-shadow:0 0 40px #f0f; }
+  to { box-shadow:0 0 15px #0ff; }
+}
